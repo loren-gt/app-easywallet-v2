@@ -1,0 +1,19 @@
+{
+  "name": "easywallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "watch": "node --watch src/index.js"
+  },
+  "keywords": [
+    "Docker"
+  ],
+  "author": "Lorena Góes Teixeira",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
