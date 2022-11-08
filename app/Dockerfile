@@ -1,12 +1,10 @@
 FROM node:18-slim
 
-WORKDIR home/app
+WORKDIR /home/node/app/
 
 COPY package*.json ./
 RUN npm install
 
 COPY . .
 
-EXPOSE 3000
-
-CMD ["npm","watch"]
+CMD ["npm", "start"]

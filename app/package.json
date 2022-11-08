@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "watch": "node --watch src/index.js"
+    "start": "node --watch src/index.js"
   },
   "keywords": [
     "Docker"
@@ -13,7 +13,8 @@
   "author": "Lorena Góes Teixeira",
   "license": "ISC",
   "devDependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mysql": "^2.18.1"
+    "mysql2": "^2.3.3"
   }
 }
